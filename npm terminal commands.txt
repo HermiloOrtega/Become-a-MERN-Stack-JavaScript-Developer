@@ -1,1 +1,22 @@
-npm init - initialize the project 
+Initialize project 
+    npm init
+Install dependencies 
+    npm install express
+    npm install babel-cli babel-preset-stage-0 babel-preset-es2015 --save-dev
+
+Install a global config 
+    npm install react -g
+
+Install esLint
+    npm install eslint -g
+    npm install eslint@5.2.0 -g To install specific version 
+Check if our dependecies needs to be updated 
+    npm outdated 
+Update a package 
+    npm update <name of package> -g
+    npm install <name of package> (Most recomended) -g
+
+Uninstall a dependencie
+    npm uninstall <name of dependencie>
+Install correct dependencies 
+    npm install babel-preset-env --save-dev 
