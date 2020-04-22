@@ -20,3 +20,25 @@ Uninstall a dependencie
     npm uninstall <name of dependencie>
 Install correct dependencies 
     npm install babel-preset-env --save-dev 
+
+Verify Cache 
+    npm cache verify
+clean cache 
+    npm cache clean --force (VERY IMPORTANT TO DO FREQUENTLY)
+
+Check and update npm version 
+    npm -v
+Install or update npm 
+    npm install npm 
+    npm install npm@<Version> -g (Install a specific version of NPM)
+    npm install npm@lastest -g   (install the lastest version of NPM)
+install socketio 
+    npm install socketio 
+Audit issues 
+    npm audit 
+Fix an issue package
+    npm audit fix (Fix all the mistakes)
+    npm audit fix parsejsson (Fix an specific issue or vulnerability)
+
+Install nonemon
+    npm install nodemon 
